@@ -1,0 +1,36 @@
+:root {
+    --oro: rgb(167, 140, 36);
+    --azzurro: #1d9dd8;
+}
+
+@font-face {
+    font-family: "PPFragment-SerifExtraBold";
+    src: url('/public/fonts/PPFragment-SerifExtraBold.ttf');
+}
+
+
+/* background inizio sito */
+.background-img-header {
+    background-image: url("./media/sfondo.jpg")
+}
+
+/* Navbar */
+.nav-custom {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-filo-nav {
+    height: 70px;
+}
+
+/* Header */
+.header-custom {
+    height: 70vh;
+}
+
+.h1-background {
+    background-color: var(--oro);
+    padding: 0 10px;
+    width: fit-content;
+}
