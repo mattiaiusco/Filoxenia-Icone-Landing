@@ -3,15 +3,62 @@
     --azzurro: #1d9dd8;
 }
 
+/* Importo le font del progetto */
 @font-face {
-    font-family: "PPFragment-SerifExtraBold";
-    src: url('/public/fonts/PPFragment-SerifExtraBold.ttf');
+    font-family: "PPAgrandir-Bold";
+    src: url("./fonts/PPAgrandir-Bold.woff") format('woff');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "PPAgrandir-Regular";
+    src: url("./fonts/PPAgrandir-Regular.woff") format('woff');
+}
+@font-face {
+    font-family: "PPEiko-Black";
+    src: url("./fonts/PPEiko-Black.woff") format('woff');
+}
+@font-face {
+    font-family: "PPEiko-Medium";
+    src: url("./fonts/PPEiko-Medium.woff") format('woff');
+}
+
+/* General styles */
+.titlesMedium {
+    font-family: "PPEiko-Medium";
+}
+.titlesBlack {
+    font-family: "PPEiko-Black";
+}
+.paragrafi {
+    font-family: "PPAgrandir-Regular";
+}
+.paragrafiBold {
+    font-family: "PPAgrandir-Bold";
+}
+.gold {
+    color: var(--oro);
+}
+.azzurro {
+    color: var(--azzurro);
+}
+.btn-custom {
+    background-color: var(--oro);
+    width: fit-content;
+    padding: 10px 50px;
+    color: white;
+    font-family: "PPAgrandir-Regular";
+    border-radius: 25px;
+}
+.btn-custom:hover {
+    background-color: rgb(137, 115, 30)
 }
 
 
 /* background inizio sito */
 .background-img-header {
-    background-image: url("./media/sfondo.jpg")
+    background-image: url("./media/sfondo.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 /* Navbar */
@@ -26,11 +73,40 @@
 
 /* Header */
 .header-custom {
-    height: 70vh;
+    height: 75vh;
 }
 
 .h1-background {
+    font-size: 45px;
     background-color: var(--oro);
     padding: 0 10px;
     width: fit-content;
+}
+
+.icona-header {
+    height: 350px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.353);
+}
+
+/* Section programma */
+.section-programma {
+    padding-top: 100px;
+}
+
+.background-img-programma {
+    background-image: url("./media/sfondo-programma.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.h2-programma {
+    font-size: 40px;
+}
+
+
+/* media */
+@media screen and (max-width:450px) {
+    .h1-background {
+        font-size: 40px;
+    }
 }
