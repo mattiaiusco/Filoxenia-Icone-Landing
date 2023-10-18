@@ -1,6 +1,6 @@
 :root {
     --oro: rgb(167, 140, 36);
-    --azzurro: #1d9dd8;
+    --azzurro: rgb(29, 157, 216);
 }
 
 /* Importo le font del progetto */
@@ -9,14 +9,17 @@
     src: url("./fonts/PPAgrandir-Bold.woff") format('woff');
     font-weight: bold;
 }
+
 @font-face {
     font-family: "PPAgrandir-Regular";
     src: url("./fonts/PPAgrandir-Regular.woff") format('woff');
 }
+
 @font-face {
     font-family: "PPEiko-Black";
     src: url("./fonts/PPEiko-Black.woff") format('woff');
 }
+
 @font-face {
     font-family: "PPEiko-Medium";
     src: url("./fonts/PPEiko-Medium.woff") format('woff');
@@ -26,21 +29,27 @@
 .titlesMedium {
     font-family: "PPEiko-Medium";
 }
+
 .titlesBlack {
     font-family: "PPEiko-Black";
 }
+
 .paragrafi {
     font-family: "PPAgrandir-Regular";
 }
+
 .paragrafiBold {
     font-family: "PPAgrandir-Bold";
 }
+
 .gold {
     color: var(--oro);
 }
+
 .azzurro {
     color: var(--azzurro);
 }
+
 .btn-custom {
     background-color: var(--oro);
     width: fit-content;
@@ -49,6 +58,7 @@
     font-family: "PPAgrandir-Regular";
     border-radius: 25px;
 }
+
 .btn-custom:hover {
     background-color: rgb(137, 115, 30)
 }
@@ -90,17 +100,30 @@
 
 /* Section programma */
 .section-programma {
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .background-img-programma {
-    background-image: url("./media/sfondo-programma.jpg");
+    background-image: url("./media/sfondo-programma.png");
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 
 .h2-programma {
     font-size: 40px;
+}
+
+.lista-custom {
+    list-style-type: none;
+}
+
+.dotted-line {
+    border-left: 3px dotted black;
+}
+
+.logo-bari {
+    height: 100px;
+    margin: 50px 0 20px;
 }
 
 
@@ -108,5 +131,11 @@
 @media screen and (max-width:450px) {
     .h1-background {
         font-size: 40px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .h2-programma {
+        font-size: 35px;
     }
 }
