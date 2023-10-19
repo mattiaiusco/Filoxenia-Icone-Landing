@@ -67,7 +67,7 @@ p,
 li,
 a,
 h5 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -95,7 +95,7 @@ h5 {
 }
 
 .h1-background {
-    font-size: 70px;
+    font-size: 60px;
     background-color: var(--oro);
     padding: 0 10px;
     width: fit-content;
@@ -118,7 +118,7 @@ h5 {
 }
 
 .h2-programma {
-    font-size: 70px;
+    font-size: 60px;
 }
 
 .lista-custom {
@@ -134,21 +134,37 @@ h5 {
     margin: 50px 0 20px;
 }
 
+/* !Section bio-gallery */
+.background-img-bio {
+    background-image: url("./media/background-bio.png");
+    background-size: cover;
+    background-position: top;
+}
+
+.icone-social {
+    font-size: 25px;
+}
+
+/* !footer */
+
+.background-footer {
+    background-color: rgb(206, 239, 255);
+}
+
 
 /* !media */
-
 @media screen and (max-width:1320px) {
     .header-custom {
-        height: 100vh;
+        height: 85vh;
         padding: 0 100px;
     }
     
     .h1-background {
-        font-size: 40px;
+        font-size: 35px;
     }
     
     p, li, a, h5 {
-        font-size: 19px;
+        font-size: 16px;
     }
 
     .icona-header {
@@ -162,11 +178,11 @@ h5 {
     }
     
     .h1-background {
-        font-size: 40px;
+        font-size: 30px;
     }
     
     .h2-programma {
-        font-size: 35px;
+        font-size: 30px;
     }
     
     .icona-header {
