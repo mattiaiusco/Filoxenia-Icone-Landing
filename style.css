@@ -70,7 +70,6 @@ h5 {
     font-size: 20px;
 }
 
-
 /* !background inizio sito */
 .background-img-header {
     background-image: url("./media/sfondo.jpg");
@@ -90,7 +89,7 @@ h5 {
 
 /* !Header */
 .header-custom {
-    height: 75vh;
+    height: 80vh;
     padding: 0 150px;
 }
 
@@ -186,6 +185,6 @@ h5 {
     }
     
     .icona-header {
-        height: 350px;
+        height: 300px;
     }
 }
